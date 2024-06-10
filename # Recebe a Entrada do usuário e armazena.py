@@ -1,5 +1,5 @@
 # Apresenta as opções de vantagens para o usuário selecionar
-print("Escolha uma das seguintes vantagens:")
+print("Escolha uma das seguintes vantagens para migrar para AWS:")
 print("1. Economia de custos")
 print("2. Infraestrutura global")
 print("3. Alta disponibilidade")
@@ -27,14 +27,14 @@ else:
 # Função responsável por receber uma vantagem e retornar sua respectiva descrição.
 def descrever_vantagem(vantagem):
     if vantagem == "economia de custos":
-        return "Otimização de gastos por meio de modelos de preços flexíveis."
+        return "Otimização de gastos por meio de modelos de preços flexíveis variando de custos Fixo e variavel."
         
     # Descrições para outras vantagens:
     elif vantagem == "infraestrutura global":
-        return "Ampla infraestrutura distribuída globalmente para melhor desempenho e escalabilidade."
+        return "Ampla infraestrutura distribuída globalmente para melhor desempenho e escalabilidade do seu serviços cloud."
         
     elif vantagem == "alta disponibilidade":
-        return "Garantia de que o serviço estará sempre disponível e acessível."
+        return "Garantia de que o serviço estará sempre disponível e acessível 24 hrs 7 dias por semana."
         
     elif vantagem == "elasticidade":
         return "Capacidade de dimensionar recursos de forma dinâmica de acordo com a demanda."
