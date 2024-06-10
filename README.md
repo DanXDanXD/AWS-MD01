@@ -1,5 +1,3 @@
-Aqui está um README simplificado que descreve o funcionamento do código que apresenta as vantagens de utilizar serviços em nuvem e recebe uma escolha do usuário para exibir a descrição da vantagem selecionada.
-
 # Vantagens da Computação em Nuvem
 
 ## Descrição
